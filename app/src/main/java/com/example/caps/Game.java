@@ -28,12 +28,12 @@ public class Game {
         String QA = "";
 
         if (Math.random() < 0.5) {
-            QA = ref.getCapital() + "is the capital of? \n"+ ref.getName();
-            return ref.getCapital();
+            QA = ref.getCapital() + " is the capital of? \n"+ ref.getName();
+            return QA;
         }
         else {
-            QA = "What is the capital of" + ref.getName() + "\n"+ ref.getCapital();
-            return ref.getName();
+            QA = "What is the capital of " + ref.getName() + "\n"+ ref.getCapital();
+            return QA;
         }
 
     }
